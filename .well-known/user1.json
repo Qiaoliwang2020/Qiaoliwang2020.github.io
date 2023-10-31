@@ -1,0 +1,26 @@
+{
+    "@context": [
+      "https://www.w3.org/ns/did/v1",
+      "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "id": "did:web:qiaoliwang2020.github.io#user1",
+    "verificationMethod": [
+      {
+        "id": "did:web:qiaoliwang2020.github.io#user1",
+        "type": "JsonWebKey2020",
+        "controller": "did:web:qiaoliwang2020.github.io",
+        "publicKeyJwk": {
+          "kty": "EC",
+          "crv": "secp256k1",
+          "x": "+bNfEUFwT10ie5doVvi91hoTZ3Zhw2nQWq2Y6fwkH6E=",
+          "y": "XgAucxpS9iREqt5LIXjo0IS8vU3GfClQb3QvTaDqLtg="
+        }
+      }
+    ],
+    "authentication": [
+      "did:web:qiaoliwang2020.github.io#user1"
+    ],
+    "assertionMethod": [
+      "did:web:qiaoliwang2020.github.io#user1"
+    ]
+  }
