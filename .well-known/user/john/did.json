@@ -3,12 +3,12 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "did:web:qiaoliwang2020.github.io:user1",
+  "id": "did:web:qiaoliwang2020.github.io:user:john",
   "verificationMethod": [
     {
-      "id": "did:web:qiaoliwang2020.github.io:user1#key1",
+      "id": "did:web:qiaoliwang2020.github.io:user:john",
       "type": "JsonWebKey2020",
-      "controller": "did:web:qiaoliwang2020.github.io:user1",
+      "controller": "did:web:qiaoliwang2020.github.io",
       "publicKeyJwk": {
         "kty": "EC",
         "crv": "secp256k1",
@@ -18,9 +18,9 @@
     }
   ],
   "authentication": [
-    "did:web:qiaoliwang2020.github.io:user1#key1"
+    "did:web:qiaoliwang2020.github.io:user:john"
   ],
   "assertionMethod": [
-    "did:web:qiaoliwang2020.github.io:user1#key1"
+    "did:web:qiaoliwang2020.github.io:user:john"
   ]
 }
